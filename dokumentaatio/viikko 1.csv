@@ -1,1 +1,29 @@
-Testi
+Määrittelydokumentti
+
+* Ohjelmointikielenä Python
+
+* Muita ohjelmointikieliä ei hyvin hallussa
+
+* Keskeinen päätösalgoritmi on sääntöpohjainen Moving Average Crossover, joka määrittää toimenpiteen.
+Muita algoritmejä on esimerkiksi liukuvan keskiarvon laskenta tehokkaasti, aikavaativuus huomioon ottaen.
+Jotta tehty projekti olisi hyvä, tuodaan työhön myös backtestausalgoritmi, jonka avulla sen toimivuutta voidaan testata takautuvasti.
+Mahdollisesti lisäksi voidaan aiheen ympärille rakentaa erilaisia Take Profit ja Stop Loss algortimeja.
+
+Tietorakneteena käytetään perus listaa, dequea sekä mahdollisesti muita aiheen kannalta relevantteja, esim. taulukoita.
+
+* Ratkaisen harjoitustyössä yhden algoritmitreidauksen yleisimmistä teknisistä analyyseista.
+Algoritmi automatisoi päätöksenteon käyttäen arvopapereiden päätöskursseja ja tekee päätöksen pitääkö käydä kauppaa.
+
+* Ohjelma saa syötteenä hintadataa eri arvopapereista ja tekee sen mukaan algoritmilla päätöksen onko syytä käydä kauppaa.
+
+* Tavoitteena oleva aikavaativuus on lineaarinen O(n), jossa n on datapisteiden määrä.
+Tilavaativuus on O(k), jossa k on liukuvan ikkunan koko
+
+* Lähteinä aion käyttää kirjallisuutta aiheesta, opetusvideoita, tekoälyä, nettiä yleisesti sekä kurssin ohjaajia.
+
+Harjoitustyön ydin:
+Projektin ydin on algoritmit, joiden avulla on tavoitteena automatisoida päätöksenteko kaupankäynnistä.
+Suhteellisen simppelin ytimen ympärille on tarkoitus rakentaa kerroksittain eri aspekteja, joista muodostuu looginen kokonaisuus.
+Algoritmilla halutaan selvittää, voiko yksinkertaisella automatisoidulla treidauksella tehdä ylituottoa.
+
+Opinto-ohjelma: tietojenkäsittelytieteen kandidaatti (TKT)
